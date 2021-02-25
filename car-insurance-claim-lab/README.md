@@ -24,7 +24,7 @@ This is the lab for designing the simple state machine of automobile (mostly car
 
 1. States - data
 
-> States: ["Accident", "Claim Submitted", "Claim coverage decision pending", "Coverage"] 
+> States: ["**Accident**", "**Claim Submitted**", "**Claim coverage decision pending**", "**Coverage**"] 
 
 
 2. Transitions - functions 
@@ -56,7 +56,7 @@ This is the lab for designing the simple state machine of automobile (mostly car
 
 
 
-#### ![State diagram](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+#### ![State diagram](https://github.com/trungrockyngo/BCDV1012--Dapp-1/blob/main/car-insurance-claim-lab/state-diagram.png?raw=true)
  
 
 Original: 
