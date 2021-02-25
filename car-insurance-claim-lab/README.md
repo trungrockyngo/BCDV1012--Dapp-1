@@ -30,6 +30,7 @@ This is the lab for designing the simple state machine of automobile (mostly car
 2. Transitions - functions 
 
 > Key Transitions: 
+- AddNewAccident(Name)
 - FillInClaim(CarInfo[], Name, Address)
 - SubmitClaim(Name)
 - Incomplete(Name)
@@ -37,7 +38,7 @@ This is the lab for designing the simple state machine of automobile (mostly car
 - Approved(Name, Phone)
 - ReviewContract(Name)
 - ClaimCoverageDeductibles(Name)
-- ReviewPastCoverage(Name)
+- BecomePastAccidentClaim(Name)
 
 > Other functions: 
 - CheckStatus(Name)
@@ -45,6 +46,8 @@ This is the lab for designing the simple state machine of automobile (mostly car
 - ContactInsuranceComp(Name)
 
 3. Roles 
+- AddNewAccident(...) - car insurance agent
+- BecomePastAccidentClaim(...) - car insurance agent
 - FillInClaim(...) - driver in accident 
 - SubmitClaim(...) - driver in accident/car insurance agent 
 - Incomplete(...) - system 
